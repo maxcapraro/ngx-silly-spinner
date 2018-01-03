@@ -2,7 +2,7 @@
   "name": "ngx-silly-spinner",
   "version": "1.0.0",
   "description": "SillySpinner - a loading spinner for Angular 2 and up",
-  "main": "index.js",
+  "main": "main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maxcapraro/ngx-silly-spinner.git"
