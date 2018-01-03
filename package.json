@@ -12,5 +12,18 @@
   "bugs": {
     "url": "https://github.com/maxcapraro/ngx-silly-spinner/issues"
   },
-  "homepage": "https://github.com/maxcapraro/ngx-silly-spinner#readme"
+  "homepage": "https://github.com/maxcapraro/ngx-silly-spinner#readme",
+  "devDependencies": {   
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "systemjs": "0.19.40",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.1",
+    "zone.js": "^0.8.4",
+  }
 }
