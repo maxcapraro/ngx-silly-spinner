@@ -1,1 +1,0 @@
-export * from './bundle/silly-loader.component';
