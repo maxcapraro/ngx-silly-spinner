@@ -1,6 +1,6 @@
 {
   "name": "ngx-silly-spinner",
-  "version": "1.0.0",
+  "version": "1.0.2-alpha",
   "description": "SillySpinner - a loading spinner for Angular 2 and up",
   "main": "main.js",
   "repository": {
@@ -24,6 +24,6 @@
     "systemjs": "0.19.40",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
-    "zone.js": "^0.8.4",
+    "zone.js": "^0.8.4"
   }
 }
