@@ -1,1 +1,20 @@
-<h1>SillySpinner!</h1>
+<!-- In inline mode -->
+<span *ngIf="inline">
+  <span *ngIf="getIsPending()" class="inline-loading"><span class="glyphicon glyphicon-hourglass"> </span></span>
+  <span *ngIf="getIsRejected()" class="inline-error"><span class="glyphicon glyphicon-flash"> </span></span>
+</span>
+<!-- Not in inline mode -->
+<span *ngIf="!inline">
+  <div *ngIf="getIsPending()" class="wrapper wrapper-loader">
+    <div class="loader"></div>
+  </div>
+  <div *ngIf="getIsRejected()" class="wrapper wrapper-error-display">
+    <div class="error-display">
+      <div class="alert alert-danger" role="alert">
+        <span class="glyphicon glyphicon-flash"> </span>
+        Could not load data!
+      </div>
+      <!-- Un-comment for debugging: <pre>{{error.message || error}}</pre> -->
+    </div>
+  </div>
+</span>

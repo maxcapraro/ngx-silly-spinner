@@ -1,1 +1,13 @@
-<silly-spinner></silly-spinner>
+<h1>Silly Spinner (ngx-silly-spinner) Demo</h1>
+
+<h2>Status: Pending</h2>
+<silly-spinner [observable]="pendingObservable"></silly-spinner>
+<p>You should see: A weirdly moving Silly Spinner.</p>
+
+<h2>Status: Rejected</h2>
+<silly-spinner [observable]="rejectedObservable"></silly-spinner>
+<p>You should see: Some kind of error message.</p>
+
+<h2>Status: Fullfilled</h2>
+<silly-spinner [observable]="fullfilledObservable"></silly-spinner>
+<p>You should see: Nothing. Yep. Nothing.</p>
