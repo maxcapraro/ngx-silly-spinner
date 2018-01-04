@@ -3,7 +3,7 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/first';
 
 @Component({
-  selector: 'silly-spinner',
+  selector: 'ngx-silly-spinner',
   templateUrl: './silly-spinner.component.html',
   styleUrls: ['./silly-spinner.component.css']
 })
@@ -16,7 +16,7 @@ export class SillySpinnerComponent implements OnChanges {
   observable: Observable<any>;
 
   @Input()
-  inline: boolean = false;
+  inline = false;
 
   isPending: boolean;
 
