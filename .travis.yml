@@ -1,0 +1,4 @@
+language: node_jd
+node_js:
+  - "node"
+  - "7"
