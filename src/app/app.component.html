@@ -1,13 +1,48 @@
 <h1>Silly Spinner (ngx-silly-spinner) Demo</h1>
 
-<h2>Status: Pending</h2>
-<silly-spinner [observable]="pendingObservable"></silly-spinner>
-<p>You should see: A weirdly moving Silly Spinner.</p>
+<div class="row">
 
-<h2>Status: Rejected</h2>
-<silly-spinner [observable]="rejectedObservable"></silly-spinner>
-<p>You should see: Some kind of error message.</p>
+  <div class="col-md-3">
+    <h2>Status: Pending</h2>
+    <div class="panel panel-default">
+      <div class="panel-body panel-body-demo">
+        <silly-spinner [observable]="pendingObservable">(Should never be seen!)</silly-spinner>
+      </div>
+    </div>
+    <p>You should see: A weirdly moving Silly Spinner.</p>
+  </div>
 
-<h2>Status: Fullfilled</h2>
-<silly-spinner [observable]="fullfilledObservable"></silly-spinner>
-<p>You should see: Nothing. Yep. Nothing.</p>
+  <div class="col-md-3">
+    <h2>Status: Rejected</h2>
+    <div class="panel panel-default">
+      <div class="panel-body panel-body-demo">
+        <silly-spinner [observable]="rejectedObservable">(Should never be seen!)</silly-spinner>
+      </div>
+    </div>
+    <p>You should see: Some kind of error message.</p>
+  </div>
+
+  <div class="col-md-3">
+    <h2>Status: Fullfilled</h2>
+    <div class="panel panel-default">
+      <div class="panel-body panel-body-demo">
+        <silly-spinner [observable]="fullfilledObservable">(You can add own contents!)</silly-spinner>
+      </div>
+    </div>
+    <p>You should see: Nothing fancy.</p>
+  </div>
+
+  <div class="col-md-3">
+    <h2>Inline spinners</h2>
+    <div class="panel panel-default">
+      <div class="panel-body panel-body-demo">
+        <p>You can display loading spinners inline.
+          Sometimes <silly-spinner [inline]="true" [observable]="pendingObservable">(nope!)</silly-spinner> they just load.
+          Others <silly-spinner [inline]="true" [observable]="fullfilledObservable">(yippie!)</silly-spinner> are done already.
+          Errors happen as well.</p>
+      </div>
+    </div>
+    <p>You should see: Some inline spinners.</p>
+  </div>
+
+</div>
