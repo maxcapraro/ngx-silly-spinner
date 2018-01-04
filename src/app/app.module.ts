@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { SillySpinnerModule } from './modules/silly-spinner/silly-spinner.module';
+import { NgxSillySpinnerModule } from './modules/ngx-silly-spinner/ngx-silly-spinner.module';
 
 
 @NgModule({
@@ -12,7 +12,7 @@ import { SillySpinnerModule } from './modules/silly-spinner/silly-spinner.module
   ],
   imports: [
     BrowserModule,
-    SillySpinnerModule
+    NgxSillySpinnerModule
   ],
   providers: [
 

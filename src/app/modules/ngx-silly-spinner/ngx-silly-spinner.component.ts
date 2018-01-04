@@ -4,10 +4,10 @@ import 'rxjs/add/operator/first';
 
 @Component({
   selector: 'ngx-silly-spinner',
-  templateUrl: './silly-spinner.component.html',
-  styleUrls: ['./silly-spinner.component.css']
+  templateUrl: './ngx-silly-spinner.component.html',
+  styleUrls: ['./ngx-silly-spinner.component.css']
 })
-export class SillySpinnerComponent implements OnChanges {
+export class NgxSillySpinnerComponent implements OnChanges {
 
   @Input()
   promise: Promise<any>;

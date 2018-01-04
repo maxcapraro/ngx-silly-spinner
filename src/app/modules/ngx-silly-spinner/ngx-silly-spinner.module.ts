@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SillySpinnerComponent } from './silly-spinner.component';
+import { NgxSillySpinnerComponent } from './ngx-silly-spinner.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [
-    SillySpinnerComponent
+    NgxSillySpinnerComponent
   ],
   exports: [
-    SillySpinnerComponent
+    NgxSillySpinnerComponent
   ]
 })
-export class SillySpinnerModule { }
+export class NgxSillySpinnerModule { }
