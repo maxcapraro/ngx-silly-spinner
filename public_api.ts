@@ -1,1 +1,1 @@
-export * from './src/app/modules/silly-spinner/silly-spinner.module';
+export * from './src/app/modules/ngx-silly-spinner/ngx-silly-spinner.module';
