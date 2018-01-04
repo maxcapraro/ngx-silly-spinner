@@ -1,4 +1,4 @@
-language: node_jd
+language: node_js
 node_js:
   - "node"
   - "7"
